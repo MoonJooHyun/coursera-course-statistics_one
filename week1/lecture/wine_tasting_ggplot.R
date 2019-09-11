@@ -3,6 +3,8 @@
 ## install.packages("ggplot2", dependencies = TRUE)
 library(ggplot2)
 source("../../lib/multiplot.R")
+source("http://peterhaschke.com/Code/multiplot.R")
+
 
 ratings <- read.table("supplemental-stats1_ex01.txt", header=T)
 
